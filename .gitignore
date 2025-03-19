@@ -1,0 +1,83 @@
+# Binary
+mast
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories
+vendor/
+
+# Go workspace file
+go.work
+
+# Build artifacts
+build/
+mast.exe
+mast-linux-amd64
+mast-windows-amd64
+*.tar.gz
+*.zip
+
+# Logs and temporary files
+*.log
+tmp/
+logs/
+
+# Project specific
+download.log
+*.tmp
+*.temp
+
+# IDE and editor files
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+tmp/
+logs/
+
+# Go specific
+*.out
+
+# Dependency directories to remove from the repository
+vendor/
+
+# Go workspace file
+go.work
+
+# Project specific
+download.log
+*.tmp
+*.temp
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib 
