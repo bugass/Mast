@@ -1,16 +1,6 @@
 # Mast - A Fast and Reliable File Downloader
 
-Mast is a command-line file downloader written in Go that supports concurrent downloads, resumable downloads, and download queue management.
-
-## Features
-
-- Concurrent downloads with configurable workers
-- Resumable downloads
-- Download queue management
-- Progress tracking
-- Support for custom headers and cookies
-- Configurable retry mechanism
-- Clean and intuitive CLI interface
+Mast is a command-line file downloader written in Go that supports concurrent downloads.
 
 ## Installation
 
@@ -66,33 +56,6 @@ mast download https://example.com/file.zip --header "Authorization: Bearer token
 mast download https://example.com/file.zip --cookie "session=abc123"
 ```
 
-### Queue Management
-
-List all downloads:
-```bash
-mast queue list
-```
-
-Check queue status:
-```bash
-mast queue status
-```
-
-Pause a download:
-```bash
-mast queue pause <task-id>
-```
-
-Resume a download:
-```bash
-mast queue resume <task-id>
-```
-
-Cancel a download:
-```bash
-mast queue cancel <task-id>
-```
-
 ## Configuration
 
 The following flags are available for the download command:
@@ -103,7 +66,6 @@ The following flags are available for the download command:
 - `--header`: Headers to send with the request (format: name:value)
 - `--workers`: Number of download workers (default: 5)
 - `--retries`: Maximum number of retry attempts (default: 3)
-- `--resume`: Enable resumable downloads (default: true)
 
 ## License
 
