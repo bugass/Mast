@@ -1,4 +1,4 @@
-# Mast - A Fast and Reliable File Downloader
+# Mast
 
 Mast is a command-line file downloader written in Go that supports concurrent downloads.
 
