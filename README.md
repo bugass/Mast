@@ -14,7 +14,23 @@ Mast is a command-line file downloader written in Go that supports concurrent do
 
 ## Installation
 
+### Quick Install (Recommended)
+
+Download the latest release for your platform from the [releases page](https://github.com/bugass/mast/releases):
+
+```bash
+# For Linux (64-bit)
+wget https://github.com/bugass/mast/releases/latest/download/mast-linux-amd64 -O mast
+chmod +x mast
+sudo mv mast /usr/local/bin/
+
+# For Windows (64-bit)
+# Download mast-windows-amd64.exe from releases
+```
+
 ### From Source
+
+If you want to build from source:
 
 ```bash
 git clone https://github.com/bugass/mast.git
@@ -22,10 +38,6 @@ cd mast
 go build -o mast
 sudo mv mast /usr/local/bin/
 ```
-
-### From Release
-
-Download the latest release for your platform from the [releases page](https://github.com/bugass/mast/releases).
 
 ## Usage
 
