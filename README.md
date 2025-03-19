@@ -16,7 +16,7 @@ sudo mv mast /usr/local/bin/
 
 # For Windows (64-bit)
 # Download mast-windows-amd64.exe from releases
-./mast-windows-amd6
+./mast-windows-amd64
 ```
 
 ### From Source
